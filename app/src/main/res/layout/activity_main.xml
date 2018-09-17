@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/map"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="Add task"
+        android:textAllCaps="true"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/allTasksButton"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="All Tasks"
+        android:textAllCaps="true"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
